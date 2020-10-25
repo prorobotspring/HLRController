@@ -1,0 +1,208 @@
+[2013Nov05 16:28:41,355][INFO ][configurarLogger BSSIntLogger.java:81][APLICACION: HLRController - VERSION: 1.0e]
+[2013Nov05 16:28:41,368][INFO ][configurarLogger BSSIntLogger.java:83][DESCRIPCION: Servicios de Integracion Aprovisionamiento HLR via InstantLink]
+[2013Nov05 16:28:41,403][INFO ][onMessage HLRControllerMDBean.java:202][Mensaje recibido en listener. Mensaje: SAS3
+0
+SAS_ACTION LOGIN
+LOGIN INVPN
+PASSWORD digitel412
+$END$
+
+SAS3
+0
+SAS_ACTION REQUEST
+ORDER_NO O8024448
+REQ_USER INVPN
+RESP_QUEUE_ID O8024448
+NE_TYPE HLR
+REQ_TYPE 2
+REQ_OBJ 1
+IMSI1 734021002005479
+MSISDN1 4128024448
+SUPP_CODES O53001
+ORIG_SCP 584120000510
+ORIG_SKEY 4014
+ORIG_DEFCH C
+ORIG_CAP 2
+$END$
+
+SAS3
+0
+SAS_ACTION LOGOUT
+$END$ -- ID: O8024448]
+[2013Nov05 16:28:41,414][INFO ][instantLinkSolicitud ConexionInstantLinkHLR.java:51][ENVIANDO solicitud hacia InstantLink: ID SOLICITUD: O8024448]
+[2013Nov05 16:28:41,423][INFO ][execInstlAck Adapter.java:156][ABRIENDO Socket para envio de Solicitud hacia InstantLink]
+[2013Nov05 16:28:41,431][ERROR][execInstlAck Adapter.java:168][ERROR de tipo Exception ocurrido durante el envio de SOLICITUD hacia IL]
+[2013Nov05 16:28:41,452][ERROR][onMessage HLRControllerMDBean.java:221][Codigo de Error: 2999
+	Mensaje de Error: Ha ocurrido un error de tipo Exception
+	Reason: java.lang.Exception: 5010 | MSCCSocket.transacSendReceive() | Problemas cerrando socket. (socket:Socket[addr=/10.192.129.103,port=8003,localport=54581])(in:java.io.BufferedReader@14ea01d)(out:java.io.PrintWriter@f1e30d).|java.lang.Exception: 5007 | MSCCSocket.dataRead() | Problemas recibiendo información por el socket. Verifique la conexión al servidor.|Connection reset]
+[2013Nov05 16:28:41,968][INFO ][onMessage HLRControllerMDBean.java:202][Mensaje recibido en listener. Mensaje: SAS3
+0
+SAS_ACTION LOGIN
+LOGIN INVPN
+PASSWORD digitel412
+$END$
+
+SAS3
+0
+SAS_ACTION REQUEST
+ORDER_NO T8024448
+REQ_USER INVPN
+RESP_QUEUE_ID T8024448
+NE_TYPE HLR
+REQ_TYPE 2
+REQ_OBJ 1
+IMSI1 734021002005479
+MSISDN1 4128024448
+SUPP_CODES O53003
+TERM_SCP 584120000510
+TERM_SKEY 4015
+TERM_DEFCH C
+LI Y
+SI Y
+TERM_CAP 2
+$END$
+
+SAS3
+0
+SAS_ACTION LOGOUT
+$END$ -- ID: T8024448]
+[2013Nov05 16:28:41,969][INFO ][instantLinkSolicitud ConexionInstantLinkHLR.java:51][ENVIANDO solicitud hacia InstantLink: ID SOLICITUD: T8024448]
+[2013Nov05 16:28:41,971][INFO ][execInstlAck Adapter.java:156][ABRIENDO Socket para envio de Solicitud hacia InstantLink]
+[2013Nov05 16:28:41,975][ERROR][execInstlAck Adapter.java:168][ERROR de tipo Exception ocurrido durante el envio de SOLICITUD hacia IL]
+[2013Nov05 16:28:41,977][ERROR][onMessage HLRControllerMDBean.java:221][Codigo de Error: 2999
+	Mensaje de Error: Ha ocurrido un error de tipo Exception
+	Reason: java.lang.Exception: 5010 | MSCCSocket.transacSendReceive() | Problemas cerrando socket. (socket:Socket[addr=/10.192.129.103,port=8003,localport=54582])(in:java.io.BufferedReader@1998392)(out:java.io.PrintWriter@18cf880).|java.lang.Exception: 5007 | MSCCSocket.dataRead() | Problemas recibiendo información por el socket. Verifique la conexión al servidor.|Connection reset]
+[2013Nov05 16:29:22,260][INFO ][onMessage HLRControllerMDBean.java:202][Mensaje recibido en listener. Mensaje: SAS3
+0
+SAS_ACTION LOGIN
+LOGIN INVPN
+PASSWORD digitel412
+$END$
+
+SAS3
+0
+SAS_ACTION REQUEST
+ORDER_NO O8024448
+REQ_USER INVPN
+RESP_QUEUE_ID O8024448
+NE_TYPE HLR
+REQ_TYPE 2
+REQ_OBJ 1
+IMSI1 734021002005479
+MSISDN1 4128024448
+SUPP_CODES O52001
+$END$
+
+SAS3
+0
+SAS_ACTION LOGOUT
+$END$ -- ID: O8024448]
+[2013Nov05 16:29:22,262][INFO ][instantLinkSolicitud ConexionInstantLinkHLR.java:51][ENVIANDO solicitud hacia InstantLink: ID SOLICITUD: O8024448]
+[2013Nov05 16:29:22,263][INFO ][execInstlAck Adapter.java:156][ABRIENDO Socket para envio de Solicitud hacia InstantLink]
+[2013Nov05 16:29:22,267][ERROR][execInstlAck Adapter.java:168][ERROR de tipo Exception ocurrido durante el envio de SOLICITUD hacia IL]
+[2013Nov05 16:29:22,269][ERROR][onMessage HLRControllerMDBean.java:221][Codigo de Error: 2999
+	Mensaje de Error: Ha ocurrido un error de tipo Exception
+	Reason: java.lang.Exception: 5010 | MSCCSocket.transacSendReceive() | Problemas cerrando socket. (socket:Socket[addr=/10.192.129.103,port=8003,localport=54593])(in:java.io.BufferedReader@1f5944d)(out:java.io.PrintWriter@1db7c72).|java.lang.Exception: 5007 | MSCCSocket.dataRead() | Problemas recibiendo información por el socket. Verifique la conexión al servidor.|Connection reset]
+[2013Nov05 16:29:23,353][INFO ][onMessage HLRControllerMDBean.java:202][Mensaje recibido en listener. Mensaje: SAS3
+0
+SAS_ACTION LOGIN
+LOGIN INVPN
+PASSWORD digitel412
+$END$
+
+SAS3
+0
+SAS_ACTION REQUEST
+ORDER_NO T8024448
+REQ_USER INVPN
+RESP_QUEUE_ID T8024448
+NE_TYPE HLR
+REQ_TYPE 2
+REQ_OBJ 1
+IMSI1 734021002005479
+MSISDN1 4128024448
+SUPP_CODES O52003
+$END$
+
+SAS3
+0
+SAS_ACTION LOGOUT
+$END$ -- ID: T8024448]
+[2013Nov05 16:29:23,354][INFO ][instantLinkSolicitud ConexionInstantLinkHLR.java:51][ENVIANDO solicitud hacia InstantLink: ID SOLICITUD: T8024448]
+[2013Nov05 16:29:23,355][INFO ][execInstlAck Adapter.java:156][ABRIENDO Socket para envio de Solicitud hacia InstantLink]
+[2013Nov05 16:29:23,360][ERROR][execInstlAck Adapter.java:168][ERROR de tipo Exception ocurrido durante el envio de SOLICITUD hacia IL]
+[2013Nov05 16:29:23,361][ERROR][onMessage HLRControllerMDBean.java:221][Codigo de Error: 2999
+	Mensaje de Error: Ha ocurrido un error de tipo Exception
+	Reason: java.lang.Exception: 5010 | MSCCSocket.transacSendReceive() | Problemas cerrando socket. (socket:Socket[addr=/10.192.129.103,port=8003,localport=54594])(in:java.io.BufferedReader@17610bb)(out:java.io.PrintWriter@44a450).|java.lang.Exception: 5007 | MSCCSocket.dataRead() | Problemas recibiendo información por el socket. Verifique la conexión al servidor.|Connection reset]
+[2013Nov05 16:31:55,002][INFO ][onMessage HLRControllerMDBean.java:202][Mensaje recibido en listener. Mensaje: SAS3
+0
+SAS_ACTION LOGIN
+LOGIN INVPN
+PASSWORD digitel412
+$END$
+
+SAS3
+0
+SAS_ACTION REQUEST
+ORDER_NO O8024448
+REQ_USER INVPN
+RESP_QUEUE_ID O8024448
+NE_TYPE HLR
+REQ_TYPE 2
+REQ_OBJ 1
+IMSI1 734021002005479
+MSISDN1 4128024448
+SUPP_CODES O53001
+ORIG_SCP 584120000510
+ORIG_SKEY 4014
+ORIG_DEFCH C
+ORIG_CAP 2
+$END$
+
+SAS3
+0
+SAS_ACTION LOGOUT
+$END$ -- ID: O8024448]
+[2013Nov05 16:31:55,004][INFO ][instantLinkSolicitud ConexionInstantLinkHLR.java:51][ENVIANDO solicitud hacia InstantLink: ID SOLICITUD: O8024448]
+[2013Nov05 16:31:55,005][INFO ][execInstlAck Adapter.java:156][ABRIENDO Socket para envio de Solicitud hacia InstantLink]
+[2013Nov05 16:31:55,009][ERROR][execInstlAck Adapter.java:168][ERROR de tipo Exception ocurrido durante el envio de SOLICITUD hacia IL]
+[2013Nov05 16:31:55,010][ERROR][onMessage HLRControllerMDBean.java:221][Codigo de Error: 2999
+	Mensaje de Error: Ha ocurrido un error de tipo Exception
+	Reason: java.lang.Exception: 5010 | MSCCSocket.transacSendReceive() | Problemas cerrando socket. (socket:Socket[addr=/10.192.129.103,port=8003,localport=54647])(in:java.io.BufferedReader@73e12c)(out:java.io.PrintWriter@1c4192a).|java.lang.Exception: 5007 | MSCCSocket.dataRead() | Problemas recibiendo información por el socket. Verifique la conexión al servidor.|Connection reset]
+[2013Nov05 16:31:56,077][INFO ][onMessage HLRControllerMDBean.java:202][Mensaje recibido en listener. Mensaje: SAS3
+0
+SAS_ACTION LOGIN
+LOGIN INVPN
+PASSWORD digitel412
+$END$
+
+SAS3
+0
+SAS_ACTION REQUEST
+ORDER_NO T8024448
+REQ_USER INVPN
+RESP_QUEUE_ID T8024448
+NE_TYPE HLR
+REQ_TYPE 2
+REQ_OBJ 1
+IMSI1 734021002005479
+MSISDN1 4128024448
+SUPP_CODES O53003
+TERM_SCP 584120000510
+TERM_SKEY 4015
+TERM_DEFCH C
+LI Y
+SI Y
+TERM_CAP 2
+$END$
+
+SAS3
+0
+SAS_ACTION LOGOUT
+$END$ -- ID: T8024448]
+[2013Nov05 16:31:56,079][INFO ][instantLinkSolicitud ConexionInstantLinkHLR.java:51][ENVIANDO solicitud hacia InstantLink: ID SOLICITUD: T8024448]
+[2013Nov05 16:31:56,080][INFO ][execInstlAck Adapter.java:156][ABRIENDO Socket para envio de Solicitud hacia InstantLink]
+[2013Nov05 16:31:56,084][ERROR][execInstlAck Adapter.java:168][ERROR de tipo Exception ocurrido durante el envio de SOLICITUD hacia IL]
+[2013Nov05 16:31:56,086][ERROR][onMessage HLRControllerMDBean.java:221][Codigo de Error: 2999
+	Mensaje de Error: Ha ocurrido un error de tipo Exception
+	Reason: java.lang.Exception: 5010 | MSCCSocket.transacSendReceive() | Problemas cerrando socket. (socket:Socket[addr=/10.192.129.103,port=8003,localport=54648])(in:java.io.BufferedReader@25bcab)(out:java.io.PrintWriter@1859d66).|java.lang.Exception: 5007 | MSCCSocket.dataRead() | Problemas recibiendo información por el socket. Verifique la conexión al servidor.|Connection reset]

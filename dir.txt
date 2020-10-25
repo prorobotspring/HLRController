@@ -1,0 +1,14 @@
+.:
+total 3670
+-rw-r--r--   1 weblogic other       1383 May 19  2010 config.properties
+-rw-r--r--   1 weblogic other     921130 May 17  2010 Copia hlrcontroller.ear
+-rw-r--r--   1 weblogic other          0 Jun 28 11:57 dir.txt
+-rw-r--r--   1 weblogic other     924647 May 19  2010 hlrcontroller.ear
+-rw-r--r--   1 weblogic other        238 May 17  2010 Instlrespuesta.txt
+-rw-r--r--   1 weblogic other       6597 May 19  2010 log4j.properties
+drwxr-xr-x   2 weblogic other        512 Oct  4  2010 logs
+
+./logs:
+total 34
+-rw-r--r--   1 weblogic other          0 May 18  2010 app_invpn.log
+-rw-r--r--   1 weblogic other      17282 May 27  2010 hlrcontroller.log
